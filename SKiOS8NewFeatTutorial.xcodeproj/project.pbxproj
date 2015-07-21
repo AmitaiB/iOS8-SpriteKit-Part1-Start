@@ -35,6 +35,7 @@
 		0ED83CDA19E4B527009720D9 /* PhysicsSceneEditor.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0ED83CD919E4B527009720D9 /* PhysicsSceneEditor.sks */; };
 		0ED83CDC19E4B535009720D9 /* SceneKitSceneEditor.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0ED83CDB19E4B535009720D9 /* SceneKitSceneEditor.sks */; };
 		0EE8675F19F26DE7004E68A0 /* btnLighting.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8675E19F26DE7004E68A0 /* btnLighting.png */; };
+		38DDC2511B5EDD8700EFC7D4 /* ShaderSceneEditor.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		0ED83CD919E4B527009720D9 /* PhysicsSceneEditor.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PhysicsSceneEditor.sks; sourceTree = "<group>"; };
 		0ED83CDB19E4B535009720D9 /* SceneKitSceneEditor.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SceneKitSceneEditor.sks; sourceTree = "<group>"; };
 		0EE8675E19F26DE7004E68A0 /* btnLighting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnLighting.png; sourceTree = "<group>"; };
+		38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShaderSceneEditor.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				0E2F73B719E4A748005C71A6 /* AppDelegate.h */,
 				0E2F73B819E4A748005C71A6 /* AppDelegate.m */,
 				0E2F73BA19E4A748005C71A6 /* GameScene.h */,
+				38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */,
 				0E2F73BB19E4A748005C71A6 /* GameScene.m */,
 				0E2F73F419E4AF6D005C71A6 /* ShaderScene.h */,
 				0E2F73F519E4AF6D005C71A6 /* ShaderScene.m */,
@@ -296,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DDC2511B5EDD8700EFC7D4 /* ShaderSceneEditor.sks in Resources */,
 				0E2F73E419E4A80D005C71A6 /* btnPhysics.png in Resources */,
 				0ED83CDC19E4B535009720D9 /* SceneKitSceneEditor.sks in Resources */,
 				0E2F73C919E4A748005C71A6 /* LaunchScreen.xib in Resources */,
