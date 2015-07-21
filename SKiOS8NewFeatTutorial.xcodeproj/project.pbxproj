@@ -37,6 +37,7 @@
 		0EE8675F19F26DE7004E68A0 /* btnLighting.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8675E19F26DE7004E68A0 /* btnLighting.png */; };
 		38DDC2511B5EDD8700EFC7D4 /* ShaderSceneEditor.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */; };
 		38DDC2531B5EE15E00EFC7D4 /* Shader01.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 38DDC2521B5EE15E00EFC7D4 /* Shader01.fsh */; };
+		38DDC2551B5EE51C00EFC7D4 /* Shader02.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 38DDC2541B5EE51C00EFC7D4 /* Shader02.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		0EE8675E19F26DE7004E68A0 /* btnLighting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnLighting.png; sourceTree = "<group>"; };
 		38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShaderSceneEditor.sks; sourceTree = "<group>"; };
 		38DDC2521B5EE15E00EFC7D4 /* Shader01.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader01.fsh; sourceTree = "<group>"; };
+		38DDC2541B5EE51C00EFC7D4 /* Shader02.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader02.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,9 +138,10 @@
 				0E2F73B719E4A748005C71A6 /* AppDelegate.h */,
 				0E2F73B819E4A748005C71A6 /* AppDelegate.m */,
 				0E2F73BA19E4A748005C71A6 /* GameScene.h */,
+				0E2F73BB19E4A748005C71A6 /* GameScene.m */,
 				38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */,
 				38DDC2521B5EE15E00EFC7D4 /* Shader01.fsh */,
-				0E2F73BB19E4A748005C71A6 /* GameScene.m */,
+				38DDC2541B5EE51C00EFC7D4 /* Shader02.fsh */,
 				0E2F73F419E4AF6D005C71A6 /* ShaderScene.h */,
 				0E2F73F519E4AF6D005C71A6 /* ShaderScene.m */,
 				0E2F73F119E4AF5F005C71A6 /* SceneKitScene.h */,
@@ -320,6 +323,7 @@
 				0E78DA2D19E833270077D7E0 /* Wicked-Cat.png in Resources */,
 				0E2F73E719E4A80D005C71A6 /* btnShaderSize.png in Resources */,
 				0EE8675F19F26DE7004E68A0 /* btnLighting.png in Resources */,
+				38DDC2551B5EE51C00EFC7D4 /* Shader02.fsh in Resources */,
 				0E78DA2F19E833930077D7E0 /* background.jpg in Resources */,
 				0ED83CD819E4B511009720D9 /* LightingSceneEditor.sks in Resources */,
 				0E2F73C419E4A748005C71A6 /* Main.storyboard in Resources */,

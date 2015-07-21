@@ -26,5 +26,28 @@
     }
     return self;
 }
+    //Added acc. to tutorial...
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    for (UITouch *touch in touches) {
+        CGPoint location = [touch locationInNode:self];
+        
+            //Create the node
+        SKSpriteNode *space = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship.png"];
+        space.position = CGPointMake(location.x, location.y);
+        [self addChild:space];
+
+        
+            //This takes the spaceship photo and colors it red. Try commenting out these few lines and see the difference.
+        SKShader *shader = [SKShader shaderWithFileNamed:@"Shader02.fsh"];
+        
+        shader.uniforms = @[ [SKUniform uniformWithName:@"myTexture" texture:[SKTexture textureWithImageNamed:@"Spaceship.png"]]];
+        
+        space.shader = shader;
+    }
+    
+}
+
+
+
 
 @end
