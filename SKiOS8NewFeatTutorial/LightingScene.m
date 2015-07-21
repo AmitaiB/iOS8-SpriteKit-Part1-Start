@@ -18,6 +18,35 @@
     [sprite setShadowedBitMask:1];
     [sprite setLightingBitMask:1];
     [self addChild:sprite];
+    
+    SKLightNode *light = [[SKLightNode alloc] init];
+    [light setName:@"light"];
+    [light setPosition:CGPointMake(100, 100)];
+    [light setCategoryBitMask:1];
+    [light setFalloff:1.5];
+    [light setZPosition:1];
+    [light setAmbientColor:[UIColor whiteColor]];
+    [light setLightColor:[[UIColor alloc]   initWithRed:1.0
+                                                  green:0.0
+                                                   blue:0.0
+                                                  alpha:0.5]];
+        
+    [light setShadowColor: [[UIColor alloc] initWithRed:1.0
+                                                  green:0.25
+                                                   blue:0.0
+                                                  alpha:0.5]];
+    [self addChild:light];
+    
+    
+}
+
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    for (UITouch *touch in touches) {
+        NSLog(@"Hello from inside the touchesMoved method!");
+        CGPoint location = [touch locationInNode:self];
+        [self childNodeWithName:@"light"].position = CGPointMake(location.x, location.y);
+    }
 }
 
 @end
