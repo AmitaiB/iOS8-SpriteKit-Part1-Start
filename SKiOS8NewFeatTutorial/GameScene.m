@@ -93,6 +93,8 @@
         
         if ([node.name isEqualToString:@"buttonShaderCoder"]) {
             // Complete this
+            ShaderScene *scene = [ShaderScene unarchiveFromFile:@"ShaderSceneEditor"];
+            [self.scene.view presentScene:scene];
         }
         
         if ([node.name isEqualToString:@"buttonLighting"]) {

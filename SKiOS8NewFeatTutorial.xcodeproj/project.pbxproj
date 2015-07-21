@@ -139,7 +139,6 @@
 				0E2F73B819E4A748005C71A6 /* AppDelegate.m */,
 				0E2F73BA19E4A748005C71A6 /* GameScene.h */,
 				0E2F73BB19E4A748005C71A6 /* GameScene.m */,
-				38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */,
 				38DDC2521B5EE15E00EFC7D4 /* Shader01.fsh */,
 				38DDC2541B5EE51C00EFC7D4 /* Shader02.fsh */,
 				0E2F73F419E4AF6D005C71A6 /* ShaderScene.h */,
@@ -221,6 +220,7 @@
 				0ED83CD719E4B511009720D9 /* LightingSceneEditor.sks */,
 				0ED83CD919E4B527009720D9 /* PhysicsSceneEditor.sks */,
 				0ED83CDB19E4B535009720D9 /* SceneKitSceneEditor.sks */,
+				38DDC2501B5EDD8700EFC7D4 /* ShaderSceneEditor.sks */,
 			);
 			name = Editor;
 			sourceTree = "<group>";
