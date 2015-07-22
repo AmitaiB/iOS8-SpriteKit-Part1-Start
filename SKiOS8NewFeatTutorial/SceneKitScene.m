@@ -64,6 +64,15 @@
     [self addChild:sk3DNode];
     
     
+        //Step 4. Animating the Scene...
+    CABasicAnimation *torusRotation = [CABasicAnimation animationWithKeyPath:@"rotation"];
+    torusRotation.byValue = [NSValue valueWithSCNVector4:SCNVector4Make(1, 1, 0, 4.0*M_PI)];
+    [torusRotation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear]];
+    [torusRotation setRepeatCount:INFINITY];
+    [torusRotation setDuration:5.0];
+    
+    [torusNode addAnimation:torusRotation forKey:nil];
+    
     
 }
 
