@@ -53,6 +53,12 @@
     [cameraNode addChildNode:spotLightNode];
     [sceneObject.rootNode addChildNode:spotLightNode];
     
+    SCNTorus *torus = [SCNTorus torusWithRingRadius:13 pipeRadius:1.5];
+    SCNNode *torusNode = [SCNNode nodeWithGeometry:torus];
+    [torusNode setTransform:SCNMatrix4MakeRotation(M_PI / 3, 0, 1, 0)];
+    [sceneObject.rootNode addChildNode:torusNode];
+    
+    
         //SCENE (action) OBJECT!!!
     [sk3DNode setScnScene:sceneObject];
     [self addChild:sk3DNode];
