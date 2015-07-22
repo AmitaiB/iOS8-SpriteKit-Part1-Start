@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BB57B99B-675B-440B-9F1F-D6C4CADF9120</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SKiOS8NewFeatTutorial</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B4FAC3E2851A70B3046A38FBBF6ADDFC967471AC</key>
 		<string>github.com:AmitaiB/iOS8-SpriteKit-Part1-Start.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SKiOS8NewFeatTutorial.xcodeproj</string>
+	<string>SKiOS8NewFeatTutorial.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B4FAC3E2851A70B3046A38FBBF6ADDFC967471AC</key>
